@@ -1,0 +1,29 @@
+package com.proyecto.trabajo.entity;
+
+public class mesa {
+
+	String N_de_mesa;
+	String mesa_disponible;
+	public mesa() {
+		super();
+	}
+	public mesa(String n_de_mesa, String mesa_disponible) {
+		super();
+		N_de_mesa = n_de_mesa;
+		this.mesa_disponible = mesa_disponible;
+	}
+	public String getN_de_mesa() {
+		return N_de_mesa;
+	}
+	public void setN_de_mesa(String n_de_mesa) {
+		N_de_mesa = n_de_mesa;
+	}
+	public String getMesa_disponible() {
+		return mesa_disponible;
+	}
+	public void setMesa_disponible(String mesa_disponible) {
+		this.mesa_disponible = mesa_disponible;
+	}
+	
+	
+}

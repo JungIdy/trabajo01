@@ -1,0 +1,5 @@
+package com.proyecto.trabajo.repository;
+
+public interface PersonalRepository {
+
+}
